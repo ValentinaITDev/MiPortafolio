@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
     <section 
       id="projects" 
       ref={sectionRef}
-      className="py-20 bg-gray-50 dark:bg-gray-900"
+      className="py-20 bg-gradient-to-br from-cyan-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-950 dark:to-purple-900 animate-slide-in"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">

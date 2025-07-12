@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+import { Heart, Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -18,10 +18,10 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="flex space-x-6 mb-4 md:mb-0">
-            <a href="#Inicio" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Inicio</a>
-            <a href="#Proyectos" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Proyectos</a>
-            <a href="#Sobre Mi" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Sobre Mi</a>
-            <a href="#Contacto" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Contacto</a>
+            <a href="#home" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Inicio</a>
+            <a href="#projects" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Proyectos</a>
+            <a href="#about" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Sobre Mi</a>
+            <a href="#contact" className="text-gray-600 dark:text-gray-400 hover:text-cyan-500 dark:hover:text-cyan-400 transition-colors">Contacto</a>
           </div>
           
           <div className="text-gray-600 dark:text-gray-400 flex items-center">
@@ -29,6 +29,19 @@ const Footer: React.FC = () => {
             <Heart size={16} className="mx-1 text-red-500" />
             <span>por Valentina Tovar</span>
           </div>
+        </div>
+
+        <div className="w-full border-t border-purple-200 dark:border-purple-900 my-6"></div>
+        <div className="flex space-x-4 mt-4">
+          <a href="mailto:tovarv145@gmail.com" target="_blank" rel="noopener noreferrer">
+            <Mail size={20} className="text-cyan-500 hover:text-purple-500 transition-colors" />
+          </a>
+          <a href="https://github.com/ValentinaITDev" target="_blank" rel="noopener noreferrer">
+            <Github size={20} className="text-cyan-500 hover:text-purple-500 transition-colors" />
+          </a>
+          <a href="https://www.linkedin.com/in/valentina-tovar-44bbb71b4/" target="_blank" rel="noopener noreferrer">
+            <Linkedin size={20} className="text-cyan-500 hover:text-purple-500 transition-colors" />
+          </a>
         </div>
       </div>
     </footer>
