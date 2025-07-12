@@ -55,4 +55,4 @@ Aquí te dejo cómo puedes encontrarme:
 🌱 Explorando nuevas tecnologías como React Native, Node.js y más.
 
 
-Gracias por pasarte por aquí. ¡Estoy en formación pero con muchas ganas de aprender y
+Gracias por pasarte por aquí. ¡Estoy en formación pero con muchas ganas de aprender y aportar! 💪
