@@ -1,7 +1,7 @@
 # 💻 Portafolio Web – Valentina Tovar
 
-¡Hola! Soy **Valentina Tovar**, estudiante de 6° semestre de Desarrollo de Software 👩‍💻.  
-Este es mi portafolio personal, creado con **React**, donde muestro quién soy, mis habilidades, proyectos y cómo puedes contactarme. ¡Estoy en constante aprendizaje y buscando nuevas oportunidades para crecer profesionalmente! 🚀
+¡Hola! Soy **Valentina Tovar**, estudiante graduada de Desarrollo de Software 👩‍💻.  
+Este es mi portafolio personal, creado con **React**, donde muestro quién soy, mis habilidades, experiencia profesional, proyectos y cómo puedes contactarme. ¡Soy apasionada por crear soluciones web innovadoras y estoy buscando nuevas oportunidades para crecer profesionalmente! 🚀
 
 🔗 **Portafolio en línea:**  
 ➡️ [https://mi-portafolio-lac-eight.vercel.app](https://mi-portafolio-lac-eight.vercel.app)
@@ -10,35 +10,69 @@ Este es mi portafolio personal, creado con **React**, donde muestro quién soy, 
 ## 🛠️ Tecnologías utilizadas
 
 - ⚛️ React
-- 💅 CSS
+- 💅 CSS & Tailwind CSS
 - 🔁 React Router DOM
 - 📬 JotForm (para el formulario de contacto)
+- 🐳 Docker
+- 🌍 TypeScript
+- 📦 Node.js
 
 
 ## 🧩 Estructura del sitio
 
-- **Inicio** – Presentación personal.
-- **Sobre mí** – Información sobre mis habilidades técnicas y tecnologías que domino.
-- **Proyectos** – Muestra de algunos proyectos académicos con descripciones y demos en video.
+- **Inicio** – Presentación personal y profesional.
+- **Sobre mí** – Información sobre mis habilidades técnicas, experiencia en Yara y tecnologías que domino.
+- **Experiencia Laboral** – IT Support / Help Desk en Yara Latinoamérica (ago. 2025 - feb. 2026).
+- **Proyectos** – Mis proyectos principales, incluyendo Centro Espiritual Guadalupano.
 - **Contacto** – Formulario funcional para escribirme directamente (JotForm integrado).
 
 
-## 📂 Proyecto destacado: Sistema de Gestión de Voluntariados
+## 📂 Proyectos destacados
+
+### 🌟 Centro Espiritual Guadalupano
+**Descripción:** Página web corporativa profesional para centro espiritual con ubicación, servicios y contacto directo.  
+🛠️ **Tecnologías:** HTML, CSS, JavaScript  
+✨ **Características:**
+- Botón de WhatsApp para contacto directo
+- Listado de servicios ofrecidos
+- Información de ubicación
+- Perfil de negocio en Google integrado
+
+🔗 **Visita el sitio:** [https://centroespiritualguadalupano.com/](https://centroespiritualguadalupano.com/)
+
+---
+
+### 📊 Sistema de Gestión de Voluntariados (Proyecto Académico)
 
 🎓 Proyecto desarrollado en equipo para la universidad.  
-🛠️ Tecnologías: React, Spring Boot, MongoDB, Docker.
+🛠️ **Tecnologías:** React, Spring Boot, MongoDB, Docker.
 
 > Se trata de un sistema que permite registrar, visualizar y administrar voluntarios en diferentes campañas.  
 > Incluye autenticación, validación de formularios y conexión a base de datos.  
-> Actualmente tengo el frontend listo y en proceso de reactivación del backend.  
-> Para mostrar su funcionamiento, preparé una demo en video (ver abajo).
+> Frontend completado con React, backend en Spring Boot con MongoDB.
 
 🎥 **Demo en video:** *[Próximamente disponible]*
 
 📷 **Capturas:** *[Próximamente disponible]*
 
 
-## 📬 Contacto
+## 💼 Experiencia Profesional
+
+### IT Support / Help Desk – Yara Latinoamérica
+**Período:** Agosto 2025 - Febrero 2026 | **Modalidad:** Contrato de prácticas · Presencial  
+**Ubicación:** Colombia
+
+**Responsabilidades:**
+- Gestión y resolución de incidentes mediante ServiceNow (ITSM) con cumplimiento de SLA
+- Diagnóstico y solución de problemas en hardware y software (Windows, herramientas Microsoft)
+- Soporte a conectividad de red y VPN corporativa
+- Configuración y entrega de equipos (laptops, monitores y accesorios)
+- Administración de inventario de activos tecnológicos
+- Gestión de accesos, cuentas de usuario y restablecimiento de contraseñas
+- Apoyo al equipo de Cyber Defense en validación de seguridad
+- Coordinación con equipos locales y globales para seguimiento de casos
+
+**Habilidades desarrolladas:** ServiceNow, Hardware & Software, Windows, Redes, Inglés, Resolución de Problemas, Atención al Cliente
 
 ¿Quieres trabajar conmigo, ofrecerme una práctica, o simplemente saludar?  
 Aquí te dejo cómo puedes encontrarme:
@@ -51,8 +85,15 @@ Aquí te dejo cómo puedes encontrarme:
 ## 📌 Estado del proyecto
 
 ✅ Deploy funcional en Vercel.  
-🛠️ En constante mejora (agregando proyectos, organizando videos, capturas y experiencias).  
-🌱 Explorando nuevas tecnologías como React Native, Node.js y más.
+✅ Portafolio actualizado con experiencia profesional y nuevos proyectos.  
+🛠️ En constante mejora (agregando más proyectos y experiencias).  
+🌱 Explorando nuevas tecnologías como React Native, Node.js, Next.js y más.
 
 
-Gracias por pasarte por aquí. ¡Estoy en formación pero con muchas ganas de aprender y aportar! 💪
+## 📚 Formación
+
+**Tecnología en Ingeniería de Sistemas** – Tecnológico Comfenalco  
+✅ Graduada en desarrollo de software con enfoque en aplicaciones web y sistemas de información.
+
+
+Gracias por pasarte por aquí. ¡Soy una desarrolladora apasionada por crear soluciones innovadoras y estoy lista para asumir nuevos desafíos! 💪
