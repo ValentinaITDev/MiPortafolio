@@ -42,20 +42,6 @@ Este es mi portafolio personal, creado con **React**, donde muestro quién soy, 
 
 ---
 
-### 📊 Sistema de Gestión de Voluntariados (Proyecto Académico)
-
-🎓 Proyecto desarrollado en equipo para la universidad.  
-🛠️ **Tecnologías:** React, Spring Boot, MongoDB, Docker.
-
-> Se trata de un sistema que permite registrar, visualizar y administrar voluntarios en diferentes campañas.  
-> Incluye autenticación, validación de formularios y conexión a base de datos.  
-> Frontend completado con React, backend en Spring Boot con MongoDB.
-
-🎥 **Demo en video:** *[Próximamente disponible]*
-
-📷 **Capturas:** *[Próximamente disponible]*
-
-
 ## 💼 Experiencia Profesional
 
 ### IT Support / Help Desk – Yara Latinoamérica
