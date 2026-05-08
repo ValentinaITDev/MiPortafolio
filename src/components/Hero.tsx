@@ -39,7 +39,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 max-w-2xl mb-8">
-            Soy estudiante de desarrollo de software y me apasiona crear experiencias web atractivas y funcionales. 
+            Soy estudiante graduada de desarrollo de software y me apasiona crear experiencias web atractivas y funcionales. 
             Estoy aquí para ayudarte a dar vida a tus ideas.
           </p>
           

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Code, Lightbulb, Rocket, LayoutGrid } from 'lucide-react';
+import { Code, Lightbulb, Rocket, LayoutGrid, Briefcase } from 'lucide-react';
 
 const About: React.FC = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -38,7 +38,7 @@ const About: React.FC = () => {
   const skills = [
     'JavaScript', 'Java', 'React', 'CSS', 'HTML','MongoDB', 'Git',
     'Responsivo', 'UI/UX', 'RESTful APIs', 'MySQL',
-    'Bootstrap', 'Tailwind CSS',
+    'Bootstrap', 'Tailwind CSS', 'Docker',
   ];
 
   return (
@@ -53,9 +53,9 @@ const About: React.FC = () => {
             Sobre <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">Mi</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Soy un estudiante de desarrollo de software con una pasión por la creación de experiencias
+            Soy estudiante graduada de desarrollo de software con una pasión por la creación de experiencias
             web atractivas y funcionales. Me encanta aprender nuevas tecnologías y mejorar mis habilidades
-            en el desarrollo frontend. Estoy emocionado por el futuro y las oportunidades que me esperan.
+            en el desarrollo frontend. Estoy emocionada por el futuro y las oportunidades que me esperan.
           </p>
         </div>
 
@@ -73,15 +73,16 @@ const About: React.FC = () => {
               Me encanta trabajar con JavaScript y Java, y estoy aprendiendo en frameworks como React.
             </p>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Actualmente estoy en Quinto semestre de la tecnología en Ingenieria de sistemas en Tecnologico Comfenalco.
+              Recientemente me gradué como estudiante de desarrollo de software en la tecnología de Ingeniería de Sistemas en Tecnológico Comfenalco.
               He trabajado en varios proyectos académicos, donde he podido aplicar mis habilidades y aprender nuevas tecnologías.
+              Además, tengo experiencia profesional como Soporte Técnico en Yara, una empresa internacional, donde he desarrollado habilidades en resolución de problemas y atención al cliente.
               Me gusta trabajar en equipo y colaborar con otros desarrolladores para crear soluciones innovadoras.
             </p>
             <p className="text-gray-600 dark:text-gray-400">
               Estoy emocionada por el futuro y las oportunidades que me esperan en el mundo del desarrollo web.
               Siempre estoy buscando aprender y mejorar mis habilidades, y estoy abierta a nuevas oportunidades y desafíos.
-              Estoy en busqueda de una pasantía o trabajo a tiempo parcial donde pueda aplicar mis habilidades y aprender de otros desarrolladores.
-              Si estás buscando a alguien apasionada por el desarrollo web y dispuesta a aprender, ¡no dudes en contactarme!
+              Combino mi formación en desarrollo de software con mi experiencia en soporte técnico para ofrecer soluciones completas y enfocadas en el usuario.
+              Si estás buscando a alguien apasionada por el desarrollo web, con experiencia técnica y dispuesta a aprender, ¡no dudes en contactarme!
             </p>
           </div>
 
@@ -139,6 +140,96 @@ const About: React.FC = () => {
               <p className="text-gray-600 dark:text-gray-400">{item.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-20">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900 dark:text-white">
+            Experiencia <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">Laboral</span>
+          </h2>
+          
+          <div className="grid grid-cols-1 gap-8">
+            <div
+              ref={el => itemRefs.current[6] = el}
+              className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 opacity-0 transform translate-y-8"
+              style={{ transitionDelay: `1000ms` }}
+            >
+              <div className="flex items-start gap-4 mb-6">
+                <div className="flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-r from-cyan-500 to-purple-600 text-white flex-shrink-0">
+                  <Briefcase size={28} />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 dark:text-white">IT Support / Help Desk</h3>
+                  <p className="text-cyan-600 dark:text-cyan-400 font-semibold">Yara Latinoamérica</p>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Contrato de prácticas • ago. 2025 - feb. 2026 • 7 meses • Colombia · Presencial</p>
+                </div>
+              </div>
+
+              <p className="text-gray-700 dark:text-gray-300 mb-6">
+                Soporte técnico presencial y remoto a usuarios en entorno corporativo multinacional, garantizando continuidad operativa y adecuada experiencia de usuario.
+              </p>
+
+              <div className="space-y-3 mb-6">
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Gestión, priorización y resolución de incidentes mediante ServiceNow (ITSM), bajo cumplimiento de tiempos de atención (SLA).</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Diagnóstico y solución de fallas en hardware y software (Windows, herramientas corporativas Microsoft).</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Soporte a conectividad básica de red y VPN corporativa.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Configuración, alistamiento, entrega y cambio de equipos (laptops, monitores y accesorios).</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Administración, control y trazabilidad de inventario de activos tecnológicos.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Gestión de accesos, restablecimiento de contraseñas y soporte a cuentas de usuario.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Soporte inicial a impresoras, validación con proveedor y escalamiento de incidentes.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Apoyo al equipo de Cyber Defense en revisión de equipos fuera de red y validación de eventos básicos de seguridad.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Coordinación con equipos locales y globales para validaciones técnicas y seguimiento de casos.</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-cyan-500 mt-1">•</span>
+                  <p className="text-gray-700 dark:text-gray-300">Atención a usuarios corporativos bajo estándares de servicio y enfoque en resolución eficiente de incidentes.</p>
+                </div>
+              </div>
+
+              <div className="flex flex-wrap gap-2">
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-200">
+                  ServiceNow (ITSM)
+                </span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-200">
+                  Hardware & Software
+                </span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-200">
+                  Windows
+                </span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-200">
+                  Redes
+                </span>
+                <span className="rounded-full bg-gray-100 px-3 py-1 text-sm font-medium text-gray-900 dark:bg-gray-700 dark:text-gray-200">
+                  Inglés
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
